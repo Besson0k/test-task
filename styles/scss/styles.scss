@@ -1,3 +1,25 @@
-.any {
+.gallery {
   display: block;
+  background-color: green;
+  width: 800px;
+  margin: 0 auto;
+  //&__slide {
+  //  border: 0 solid transparent;
+  //  border-radius: 50%;
+  //  background-color: gray;
+  //  height: 140px;
+  //}
+  &__feed {
+    border: 0 solid transparent;
+    border-radius: 50%;
+    background-color: darkred;
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+  }
+}
+.slick-arrow {
+  &:before {
+    color: red;
+  }
 }
